@@ -1,121 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Launching Soon</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
-      color: #ffffff;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 20px;
-    }
-
-    .container {
-      max-width: 600px;
-    }
-
-    h1 {
-      font-size: 3rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
-      letter-spacing: -1px;
-    }
-
-    p {
-      font-size: 1.25rem;
-      color: #a0aec0;
-      margin-bottom: 2.5rem;
-      line-height: 1.6;
-    }
-
-    .badge {
-      display: inline-block;
-      background: rgba(99, 102, 241, 0.2);
-      color: #a5b4fc;
-      padding: 8px 16px;
-      border-radius: 9999px;
-      font-size: 0.875rem;
-      font-weight: 500;
-      margin-bottom: 1.5rem;
-      border: 1px solid rgba(99, 102, 241, 0.3);
-    }
-
-    .email-form {
-      display: flex;
-      gap: 10px;
-      max-width: 400px;
-      margin: 0 auto;
-    }
-
-    input[type="email"] {
-      flex: 1;
-      padding: 14px 18px;
-      border: 1px solid #374151;
-      border-radius: 8px;
-      background: #1f2937;
-      color: white;
-      font-size: 1rem;
-      outline: none;
-    }
-
-    input[type="email"]::placeholder {
-      color: #9ca3af;
-    }
-
-    button {
-      padding: 14px 24px;
-      background: #6366f1;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      font-size: 1rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: background 0.2s;
-    }
-
-    button:hover {
-      background: #4f46e5;
-    }
-
-    .footer {
-      margin-top: 3rem;
-      font-size: 0.875rem;
-      color: #6b7280;
-    }
-
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 2.2rem;
-      }
-      .email-form {
-        flex-direction: column;
-      }
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Technical Services Dubai | AC Repair, Plumbing, Electrical & Fit-Out | YMR</title>
+<meta name="description" content="Y M R Technical Services LLC: AC repair, electrical, plumbing, fit-out and multi-trade maintenance for homes and businesses across Dubai & UAE. Free quotes.">
+<link rel="canonical" href="https://ymrts.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="YMR Technical Services – Dubai">
+<meta property="og:description" content="Reliable technical services & fit-out solutions across Dubai.">
+<meta property="og:url" content="https://ymrts.com/">
+<meta property="og:image" content="https://ymrts.com/og.jpg">
+<link rel="icon" href="./assets/images/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="./assets/css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Y M R Technical Services LLC","url":"https://ymrts.com/","email":"info@ymrts.com","telephone":"+971588070262","areaServed":"Dubai, UAE","openingHours":"Mo-Sa 08:00-18:00","description":"Multi-trade technical services, maintenance and fit-out in Dubai.","hasOfferCatalog":{"@type":"OfferCatalog","name":"Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"AC & HVAC Services"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Interior Fit-out & Design"}}]}}
+</script>
 </head>
 <body>
-  <div class="container">
-    <div class="badge">Coming Soon</div>
-    <h1>We're launching soon</h1>
-    <p>Something exciting is on the way.</p>
+<!-- Sprite: logo + icons -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="logo" viewBox="100 450 1040 322"><path d="M103 453H212L313 557 414 453H487L491 462 343 621V769H263V621Z"/><path d="M451 533 502 478 627 601 782 459 790 457V769H721V602L622 698 522 602V769H451Z"/><path d="M806 453H1030C1090 453 1138 495 1138 550 1138 605 1090 650 1030 650H973L1094 769H985L806 591H1018C1042 591 1060 574 1060 550 1060 527 1042 512 1018 512H806Z"/></symbol>
+<symbol id="i-ac" viewBox="0 0 24 24"><path d="M12 2v20M4.9 7l14.2 10M4.9 17 19.1 7"/></symbol>
+<symbol id="i-elec" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol>
+<symbol id="i-plumb" viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></symbol>
+<symbol id="i-floor" viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 12h18M12 3v18"/></symbol>
+<symbol id="i-paint" viewBox="0 0 24 24"><path d="M4 4h13v5H4zM17 6.5h3v5h-9v3M10 14.5h2v6h-2z"/></symbol>
+<symbol id="i-carp" viewBox="0 0 24 24"><path d="M3 17 17 3l4 4L7 21zM8 12l2 2M12 8l2 2"/></symbol>
+<symbol id="i-gyp" viewBox="0 0 24 24"><path d="M3 5h18v4H3zM7 9v4M12 9v6M17 9v4"/></symbol>
+<symbol id="i-fit" viewBox="0 0 24 24"><path d="M4 21V5l8-3 8 3v16zM9 21v-5h6v5M9 9h.01M15 9h.01"/></symbol>
+<symbol id="i-glass" viewBox="0 0 24 24"><path d="M4 3h16v18H4zM9 3v18M4 12h5"/></symbol>
+<symbol id="i-clean" viewBox="0 0 24 24"><path d="m12 3 2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/></symbol>
+<symbol id="i-fire" viewBox="0 0 24 24"><path d="M12 2c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-5 1-9z"/></symbol>
+<symbol id="i-demo" viewBox="0 0 24 24"><path d="m14 4 6 6-3 3-6-6zM12 9l-8 8 3 3 8-8"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><path d="M3 5h18v14H3zM3 6l9 7 9-7"/></symbol>
+<symbol id="i-wa" viewBox="0 0 24 24"><path d="m3 21 1.6-4.8A9 9 0 1 1 8 19.6zM9 8c0 4 3 7 7 7"/></symbol>
+<symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/></symbol>
+<symbol id="i-ig" viewBox="0 0 24 24"><path d="M4 4h16v16H4zM12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8M17 7h.01"/></symbol>
+<symbol id="i-up" viewBox="0 0 24 24"><path d="m5 15 7-7 7 7"/></symbol>
+<symbol id="i-chk" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6 7-11a7 7 0 0 0-14 0c0 5 7 11 7 11zM12 10h.01"/></symbol>
+</defs></svg>
 
-    <div class="footer">
-      © 2026 | Y M R Technical Services LLC
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="topbar"><div class="wrap">
+  <div><a href="tel:+971588070262"><svg class="i"><use href="#i-phone"/></svg> +971 58 807 0262</a>
+  <a href="mailto:office@ymrts.com"><svg class="i"><use href="#i-mail"/></svg> office@ymrts.com</a></div>
+  <div><span>Business Hours: 8:00 AM – 6:00 PM</span>
+  <a href="#" aria-label="Facebook"><svg class="i"><use href="#i-fb"/></svg></a>
+  <a href="#" aria-label="Instagram"><svg class="i"><use href="#i-ig"/></svg></a>
+  <a href="https://wa.me/971588070262" aria-label="WhatsApp"><svg class="i"><use href="#i-wa"/></svg></a></div>
+</div></div>
+
+<header id="hdr"><div class="wrap bar">
+  <a href="#home" class="brand" aria-label="YMR Technical Services – Home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="100 450 1040 322" width="130" height="40" fill="#1B3A4B">
+  <path d="M103 453H212L313 557 414 453H487L491 462 343 621V769H263V621Z"/><path d="M451 533 502 478 627 601 782 459 790 457V769H721V602L622 698 522 602V769H451Z"/><path d="M806 453H1030C1090 453 1138 495 1138 550 1138 605 1090 650 1030 650H973L1094 769H985L806 591H1018C1042 591 1060 574 1060 550 1060 527 1042 512 1018 512H806Z"/>
+</svg></a>
+  <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav"><svg class="i"><use href="#i-menu"/></svg></button>
+  <nav id="nav" aria-label="Main">
+    <a href="#home">Home</a><a href="#about">About</a>
+    <div class="has-mega">
+      <a href="#services" id="svc-link" aria-haspopup="true" aria-expanded="false">Services ▾</a>
+      <div class="mega" id="mega"><div class="mega-grid" id="mega-list"></div><a class="btn ghost" href="#services">View All Services</a></div>
     </div>
+    <a href="#why">Why Us</a><a href="#gallery">Gallery</a><a href="#testimonials">Testimonials</a><a href="#contact">Contact</a>
+    <a class="btn" href="#contact">Request a Quote</a>
+  </nav>
+</div></header>
+
+<main id="main">
+<section class="hero" id="home"><div class="wrap">
+  <!-- Replace gradient with a real image via .hero{background-image:...} -->
+  <h1>Reliable Technical Services &amp; Fit-Out Solutions Across Dubai</h1>
+  <p>From AC &amp; HVAC to complete interior fit-outs — one trusted team for residential and commercial projects. Quality workmanship, clear communication, and fair pricing.</p>
+  <div class="cta"><a class="btn" href="#contact">Request a Free Quote</a><a class="btn light" href="https://wa.me/971588070262">Call / WhatsApp Now</a></div>
+  <ul class="strip"><li>Free Quotes</li><li>Same-Day Response*</li><li>Transparent Pricing</li><li>Dubai &amp; UAE</li></ul>
+</div></section>
+
+<section id="about" class="sec"><div class="wrap two">
+  <div><h2>About YMR</h2>
+  <p>Y M R Technical Services LLC is a Dubai-based multi-trade technical services company delivering reliable maintenance, repair, and complete fit-out solutions for homes, villas, apartments, offices, and commercial spaces. We combine skilled technicians, transparent processes, and a commitment to quality so your property stays comfortable, safe, and looking its best.</p></div>
+  <div class="ph" role="img" aria-label="About YMR"><img src="./assets/images/about-ymr.webp" alt="About YMR"/></div>
+</div></section>
+
+<section class="sec alt"><div class="wrap"><h2 class="c">Key Highlights</h2><div class="grid g3" id="highlights"></div></div></section>
+
+<section id="services" class="sec"><div class="wrap"><h2 class="c">Our Services</h2><div class="grid g4" id="svc-grid"></div></div></section>
+
+<section id="why" class="sec alt"><div class="wrap"><h2 class="c">Why Choose YMR</h2><div class="grid g4" id="why-grid"></div></div></section>
+
+<section id="testimonials" class="sec"><div class="wrap"><h2 class="c">Customer Feedback</h2>
+<div class="masonry">
+<blockquote><p>“Professional team, clear communication, and excellent AC servicing. They fixed the issue quickly and left everything clean.”</p><cite>— Ahmed K., Villa Owner, Dubai Hills</cite></blockquote>
+<blockquote><p>“We used YMR for a full office fit-out including partitions, electrical, and painting. On time, on budget, and the finish is outstanding.”</p><cite>— Sara M., Business Bay</cite></blockquote>
+<blockquote><p>“Reliable plumbing and electrical work. Fair pricing and no surprises. Highly recommend for both residential and commercial jobs.”</p><cite>— Omar R., JLT</cite></blockquote>
+<blockquote><p>“From demolition to final painting, the team managed everything smoothly. Great attention to detail.”</p><cite>— Priya S., Apartment Owner, Marina</cite></blockquote>
+</div></div></section>
+
+<section id="gallery" class="sec alt"><div class="wrap"><h2 class="c">Gallery</h2>
+<div class="filters" id="filters" role="group" aria-label="Filter gallery"></div>
+<div class="gal" id="gal"></div></div></section>
+
+<section class="banner"><div class="wrap"><h2>Ready to start your project?</h2><p>Get a free, no-obligation quote today. Fast response across Dubai.</p>
+<div class="cta"><a class="btn" href="#contact">Request a Quote</a><a class="btn light" href="tel:+971588070262">Call Now</a><a class="btn light" href="https://wa.me/971588070262">WhatsApp Us</a></div></div></section>
+
+<section id="contact" class="sec"><div class="wrap two">
+  <form id="form" novalidate>
+    <h2>Get in Touch</h2>
+    <label>Name*<input name="name" required autocomplete="name"></label>
+    <label>Email*<input name="email" type="email" required autocomplete="email"></label>
+    <label>Mobile*<input name="mobile" type="tel" required autocomplete="tel" pattern="[0-9+\s\-]{7,}"></label>
+    <label>Service<select name="service"><option value="">Select a service (optional)</option></select></label>
+    <label>Message*<textarea name="message" rows="4" required></textarea></label>
+    <button class="btn" type="submit">Send Message</button>
+    <p class="note" id="note" role="status"></p>
+  </form>
+  <div class="info">
+    <h3>Contact Details</h3>
+    <p><svg class="i"><use href="#i-phone"/></svg> Phone: +971 58 807 0262</p>
+    <p><svg class="i"><use href="#i-wa"/></svg> WhatsApp: +971 58 807 0262</p>
+    <p><svg class="i"><use href="#i-mail"/></svg> office@ymrts.com</p>
+    <p><svg class="i"><use href="#i-pin"/></svg> Service Areas: Dubai &amp; across the UAE</p>
+    <p>Business Hours: 8:00 AM – 6:00 PM</p>
+    <div class="ph map" role="img" aria-label="Map placeholder">Google Maps embed — “Serving all Dubai”</div>
   </div>
+</div></section>
+</main>
+
+<footer><div class="wrap fgrid">
+  <div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="100 450 1040 322" width="260" height="80" fill="#ffffff">
+      <path d="M103 453H212L313 557 414 453H487L491 462 343 621V769H263V621Z"/><path d="M451 533 502 478 627 601 782 459 790 457V769H721V602L622 698 522 602V769H451Z"/><path d="M806 453H1030C1090 453 1138 495 1138 550 1138 605 1090 650 1030 650H973L1094 769H985L806 591H1018C1042 591 1060 574 1060 550 1060 527 1042 512 1018 512H806Z"/>
+    </svg>
+    <p>Reliable technical services &amp; fit-out solutions across Dubai.</p></div>
+  <div><h4>Quick Links</h4><a href="#about">About</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div>
+  <div><h4>Contact</h4><a href="tel:+971588070262">+971 58 807 0262</a><a href="mailto:office@ymrts.com">office@ymrts.com</a>
+  <span><a href="#" aria-label="Facebook"><svg class="i"><use href="#i-fb"/></svg></a> <a href="#" aria-label="Instagram"><svg class="i"><use href="#i-ig"/></svg></a></span></div>
+</div>
+<div class="wrap copy">© <span id="yr">2026</span> | Y M R Technical Services LLC. All rights reserved. | <a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a></div></footer>
+
+<div class="float-l"><a class="fab wa" href="https://wa.me/971588070262" aria-label="Chat on WhatsApp"><svg class="i"><use href="#i-wa"/></svg></a><a class="fab" href="tel:+971588070262" aria-label="Call us"><svg class="i"><use href="#i-phone"/></svg></a></div>
+<button class="fab top" id="top" aria-label="Scroll to top"><svg class="i"><use href="#i-up"/></svg></button>
+
+<dialog id="lb"><button id="lb-x" aria-label="Close">×</button><div class="ph lg" id="lb-img"></div><p id="lb-cap"></p></dialog>
+<script src="./assets/js/script.js"></script>
 </body>
 </html>

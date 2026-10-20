@@ -128,3 +128,10 @@ nav .btn{text-align:center;margin-top:1rem}
 }
 @media(max-width:560px){.g3,.g4{grid-template-columns:1fr}.gal{grid-template-columns:repeat(2,1fr)}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+@media(min-width:861px){
+nav{align-self:stretch}
+.has-mega{align-self:stretch;display:flex;align-items:center}
+.mega::before{content:"";position:absolute;left:0;right:0;top:-14px;height:14px}
+.mega{display:block;visibility:hidden;opacity:0;transition:opacity .15s,visibility 0s .25s}
+.has-mega:hover .mega,.has-mega:focus-within .mega,.has-mega.open .mega{visibility:visible;opacity:1;transition-delay:0s}
+}

@@ -149,7 +149,15 @@
 <div class="float-l"><a class="fab wa" href="https://wa.me/971588070262" aria-label="Chat on WhatsApp"><svg class="i"><use href="#i-wa"/></svg></a><a class="fab" href="tel:+971588070262" aria-label="Call us"><svg class="i"><use href="#i-phone"/></svg></a></div>
 <button class="fab top" id="top" aria-label="Scroll to top"><svg class="i"><use href="#i-up"/></svg></button>
 
-<dialog id="lb"><button id="lb-x" aria-label="Close">×</button><div class="ph lg" id="lb-img"></div><p id="lb-cap"></p></dialog>
+<dialog id="lb" aria-label="Image viewer">
+  <button class="lb-btn lb-x" id="lb-x" aria-label="Close">×</button>
+  <button class="lb-btn lb-prev" id="lb-prev" aria-label="Previous image">‹</button>
+  <figure>
+    <img id="lb-img" alt="">
+    <figcaption><span id="lb-cap"></span><span id="lb-count"></span></figcaption>
+  </figure>
+  <button class="lb-btn lb-next" id="lb-next" aria-label="Next image">›</button>
+</dialog>
 <script src="./assets/js/script.js"></script>
 </body>
 </html>

@@ -45,7 +45,7 @@ nav>a:not(.btn):hover,.has-mega>a:hover{color:var(--teal)}
 /* Hero */
 .hero{color:#fff;padding:clamp(4rem,12vw,9rem) 0;background-color:var(--navy);background-image:repeating-linear-gradient(45deg, rgba(255,255,255,.07) 0 2px, transparent 2px 24px), linear-gradient(90deg, rgba(27,58,75,.95) 0%, rgba(27,58,75,.88) 40%, rgba(27,58,75,0) 62%), url("../images/hero-bg.webp");background-size:55% 100%, 100% 100%, cover;background-position:left top, left top, right center;background-repeat:no-repeat;}
 .hero .wrap > *{max-width:640px}
-.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:repeating-linear-gradient(45deg,rgba(255,255,255,.07) 0 2px,transparent 2px 24px),linear-gradient(135deg,rgba(27,58,75,.94),rgba(27,58,75,.8))}
+/*.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:repeating-linear-gradient(45deg,rgba(255,255,255,.07) 0 2px,transparent 2px 24px),linear-gradient(135deg,rgba(27,58,75,.94),rgba(27,58,75,.8))}*/
 .hero h1{color:#fff;max-width:18ch}.hero p{max-width:60ch;font-size:1.15rem}
 .cta{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.5rem}
 .strip{display:flex;flex-wrap:wrap;gap:.5rem 2rem;list-style:none;padding:0;margin:2.5rem 0 0;font-weight:600;font-size:.9rem}

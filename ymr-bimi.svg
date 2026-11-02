@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <title>YMR</title>
+  <desc>YMR brand logo</desc>
+  <rect width="1000" height="1000" fill="#FFFFFF"/>
+  <g fill="#1B3A4B" transform="scale(0.8)">
+    <path d="M103 453H212L313 557 414 453H487L491 462 343 621V769H263V621Z"/>
+    <path d="M451 533 502 478 627 601 782 459 790 457V769H721V602L622 698 522 602V769H451Z"/>
+    <path d="M806 453H1030C1090 453 1138 495 1138 550 1138 605 1090 650 1030 650H973L1094 769H985L806 591H1018C1042 591 1060 574 1060 550 1060 527 1042 512 1018 512H806Z"/>
+  </g>
+</svg>
